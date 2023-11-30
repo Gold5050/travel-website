@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" as="image" href="assets/images/loader.svg">
+    <link rel="stylesheet" as="image" href="assets/images/banner.jpg">
+</head>
+<body>
+
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="assets/images/loader.svg" alt="" class="img" width="250" height="250">
+        </div>
+    </div>
+
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo" width="180" height="100">
+                <img src="assets/images/logo gold.png" alt="">
+            </a>
+
+            <nav class="navbar active" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo" width="180" height="100">
+                        <img src="assets/images/logo gold.png" alt="">
+                    </a>
+
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link active">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">About us</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">service</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Connect</a>
+                    </li>
+                </ul>
+
+                <div class="header-action">
+                    <a href="#" class="login-btn">Login here</a> <br>
+
+                    <a href="#" class="btn btn-secondary">Signup Now</a>
+                </div>
+            </nav>
+
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay active" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero has-bg-img" aria-label="hero" style="background-image: url('assets/images/hero-bg.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">
+                            Travel the world <img src="assets/images/title-icon.svg" alt="img">
+                        </p>
+
+                        <h1 class="h2 title hero-title">It time to Explore the world! <br> G0! G0!!</h1>
+
+                        <p class="hero-text">We are always ready to make you happy by providing access to your choice destinations</p>
+
+                        <div class="wrapper">
+                            <a href="#" class="btn btn-secondary">
+                                <span class="span">Plan A trip</span>
+
+                                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                            </a>
+
+                            <button class="hero-btn">
+                                <div class="btn-img">
+                                    <img src="assets/images/herobtn.jpg" alt="hero btn" class="img-cover" width="50" height="50">
+
+                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <p class="text">Watch our story</p>
+  
+
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="assets/images/hero-banner.png" alt="hero-banner" width="631" height="735" class="w-100">
+
+                    </figure>
+
+                </div>
+
+            </section>
+
+            <section class="section service" aria-label="service">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <p class="section-subtitle">
+                            what we Do
+                        </p>
+
+                        <h2 class="h2 title section-title">Top Values For Us</h2>
+
+                        <p class="subtitle">
+                            check out our variety services or benefits. 
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/images/service-icon-1.svg" alt="" width="60" height="60" loading="lazy">
+                        </div>
+
+                        <h3 class="h3 title card-title">Lots of Choices</h3>
+
+                        <p class="card-text">
+                            Total 500 + destinations that we work with.
+
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/images/service-icon-3.svg" alt="" width="60" height="60" loading="lazy">
+                        </div>
+
+                        <h3 class="h3 title card-title">Best Tour Guide</h3>
+
+                        <p class="card-text">
+                            Total 500 + destinations that we work with.
+
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/images/service-icon-2.svg" alt="" width="60" height="60" loading="lazy">
+                        </div>
+
+                        <h3 class="h3 title card-title">Easy booking</h3>
+
+                        <p class="card-text">
+                            our Website is very easy to navigate which make your ticket purchase faster
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+        </article>
+    </main>
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+
+</html>
